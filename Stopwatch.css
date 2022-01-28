@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: url(1635655.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+.main{
+    margin: auto;
+    margin-top: 90px;
+    width: 450px;
+}
+#display{
+    font-size: 100px;
+    text-align: center;
+    color:white;
+    height: 170px;
+
+}
+#title{
+    padding-top: 25px;
+    color: cornsilk;
+    font-size: 70px;
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.interact{
+    text-align: center;
+    background: rgba(175,163,0);
+    padding: 27px;
+    border: 2px solid black;
+    border-radius: 50px;
+
+}
+button{
+    font-size: 30px;
+    margin: 7px;
+    padding: 10px 10px;
+    text-transform: uppercase;
+    background: black;
+    color: cornsilk;
+    border: none;
+    outline: 5px solid darkred;
+    border-radius: 20px;
+
+}
+button:hover{
+    color: black;
+    background: cornsilk;
+}
